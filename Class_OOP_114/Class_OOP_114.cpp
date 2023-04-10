@@ -11,6 +11,10 @@ public: void cetak() {
     } 
 };
 
+class Matakuliah {
+
+};
+
 int main()
 {
     std::cout << "Hello World!\n";
