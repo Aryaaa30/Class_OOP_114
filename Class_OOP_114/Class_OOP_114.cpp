@@ -21,7 +21,7 @@ public:
         cout << "Masukkan kode Matakuliah : ";
         cin >> kode;
         cout << "Masukkan Nama Matakuliah : ";
-        cin >> namaM:
+        cin >> namaM;
         cout << "Jumlah SKS : ";
         cin >> sks;
     }
@@ -34,7 +34,16 @@ public:
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    Mahasiswa mhs1;
+    Matakuliah mk;
+
+    cout << "Masukkan NIM : ";
+    cin >> mhs1.nim;
+    cout << "Masukkan Nama : ";
+    cin >> mhs1.nama;
+    mhs1.cetak();
+    mk.input();
+    mk.tampil();
 }
 
 
